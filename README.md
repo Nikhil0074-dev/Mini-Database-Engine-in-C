@@ -4,7 +4,7 @@ A lightweight SQL-like database engine built from scratch in C. Supports basic C
 
 ## Features 
 - `CREATE TABLE students (id INT, name TEXT, age INT);`
-- `INSERT INTO students VALUES (1, 'Nikhil', 21);`
+- `INSERT INTO students VALUES (1, 'Nikhil', 22);`
 - `SELECT * FROM students;`
 - `DELETE FROM students WHERE id=1;`
 - `UPDATE students SET age=22 WHERE id=1;`
@@ -24,7 +24,7 @@ make
 > CREATE TABLE students (id INT, name TEXT, age INT);
 Table 'students' created successfully.
 
-> INSERT INTO students VALUES (1, 'Nikhil', 21);
+> INSERT INTO students VALUES (1, 'Nikhil', 22);
 Record inserted into 'students'.
 
 > SELECT * FROM students;
